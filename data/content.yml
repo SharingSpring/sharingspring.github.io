@@ -45,6 +45,13 @@ experience:
       duration: '2019-2021'
       # content: Okay.
 
+skill:
+  enable: true
+  title: 'LICENSE'
+  skill_list:
+    - name: Clinical Psychology Practitioner, Level 2
+      issue: Administered through Human Resources Development Service of Korea and issued by the Ministry of Health and Welfare, Republic of Korea.
+
 ######################### funfacts #############################3
 funfacts:
   enable: false
