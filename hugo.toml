@@ -34,6 +34,23 @@ canonifyURLs = true
 relativeURLs = true
 extended = true
 
+############################## language ###############################
+
+defaultContentLanguage = 'ko'   # 기본 언어 설정
+hasCJKLanguage = true           # 한국어/중국어/일본어 줄바꿈/단어 계산 최적화
+
+[languages]
+  [languages.ko]
+    languageName = '한국어'
+    contentDir = 'content/ko'    # (선택사항) 한국어 콘텐츠 폴더 분리 시
+    weight = 1                  # 언어 선택기에서 순서
+
+  [languages.en]
+    languageName = 'English'
+    contentDir = 'content/en'
+    weight = 2
+
+
 ############################## navigation ###############################
 
 # main menu
