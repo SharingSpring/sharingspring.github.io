@@ -18,9 +18,7 @@ about:
   enable: true
   image: 'images/mpark.jpeg'
   title: 'Michelle Park (박우아)'
-  content: I provide individual counseling in both Korean and English and am fluent in both languages. Having worked with clients from over 25 countries and across a wide range of ethnic, cultural, social, and religious backgrounds, I bring experience supporting diverse populations, including bi- and multicultural individuals, multicultural families, third culture individuals, U.S. veterans, expatriate families, exchange students, Korean adoptees, Korean returnees, local Korean nationals, and foreign professionals working in Korea. I have also collaborated with churches, international companies, and educational institutions, including international schools throughout South Korea.
-<br>
-My clinical specialties include anxiety and panic disorders, depression, trauma and PTSD, ADHD, and grief counseling (including pet loss). I also support clients navigating life transitions and adjustment-related stress, identity development, intercultural challenges, interpersonal relationships, self-esteem, and career concerns. In addition, I provide parent education and guidance for parenting-related stress. [For more information](#contact)
+  content: I provide individual counseling in both English and Korean, working with clients from over 25 countries and a wide range of ethnic, cultural, social, and religious backgrounds. My experience spans diverse populations, including bi- and multicultural individuals, multicultural families, third culture individuals, U.S. veterans, expatriate families, exchange students, Korean adoptees, Korean returnees, local Korean nationals, and foreign professionals working in Korea. I have also collaborated with churches, international companies, and educational institutions, including international schools across South Korea. <br><br> My clinical specialties include anxiety and panic disorders, depression, trauma and PTSD, ADHD, and grief counseling (including pet loss). I also support clients navigating life transitions and adjustment stress, identity development, intercultural challenges, interpersonal relationships, self-esteem, and career concerns. In addition, I provide parent education and guidance for parenting-related stress. [For more information](#contact)
   button:
     enable: false
     label: 'DOWNLOAD MY RESUME'
@@ -32,33 +30,40 @@ experience:
   enable: true
   title: 'EXPERIENCE'
   experience_list:
-    - name: 임상심리사
+    - name: Clinical Therapist (임상심리사)
       company: Seoul Counseling Center 
       duration: '2021-2026'
       # content: I make websites.
 
-    - name: Global Therapist
+    - name: Global Therapist for EAP (Employee Assistance Program) 
       company: Spring Health
       duration: '2025'
       # content: Okay. 
 
-    - name: 특별 상담원
-      company: 서울대학교 대학생활문화원
+    - name: Counselor at the University Counseling Center 
+      company: Seoul National Univeristy Center for Campus Life & Culture 
       duration: '2019-2021'
       # content: Okay.
 
+skill:
+  enable: true
+  title: 'LICENSE'
+  skill_list:
+    - name: Clinical Psychology Practitioner, Level 2
+      issue: Administered through Human Resources Development Service of Korea and issued by the Ministry of Health and Welfare, Republic of Korea.
+
 ######################### funfacts #############################3
 funfacts:
-  enable: true
+  enable: false
   funfacts_list:
-    # - name: 'CUPS PER DAY'
-    #   image: 'images/icons/coffee-cup.png'
-    #   count: '2'
+    - name: 'CUPS PER DAY'
+      image: 'images/icons/coffee-cup.png'
+      count: '2'
 
-    # - name: 'SITES BUILT'
-    #   image: 'images/icons/web-development.png'
-    #   count: '25'
+    - name: 'SITES BUILT'
+      image: 'images/icons/web-development.png'
+      count: '25'
 
-    # - name: 'USELESS ROW OF ICONS'
-    #   image: 'images/icons/happy.png'
-    #   count: '1'
+    - name: 'USELESS ROW OF ICONS'
+      image: 'images/icons/happy.png'
+      count: '1'

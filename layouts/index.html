@@ -18,6 +18,7 @@
       >
         <div class="text-holder">
           <h1>{{ .title | safeHTML }}</h1>
+          <h2>{{ .license | markdownify | emojify }}</h2>
           <p>{{ .content | markdownify | emojify }}</p>
           {{ if .button.enable }} {{ with .button }}
           <a
@@ -71,12 +72,7 @@
           {{ range .skill_list }}
           <div class="clearfix">
             <span class="skillbar-title">{{ .name }}</span>
-            {{ if .Site.Data.content.skill.showpercent }}
-            <span class="skill-bar-percent">{{ .percentage }}</span>
-            {{ end }}
-            <div class="skillbar" data-percent="{{ .percentage }}">
-              <div class="skillbar-bar"></div>
-            </div>
+            <p>{{ .issue | markdownify | emojify }}</p>
           </div>
           {{ end }}
         </div>
