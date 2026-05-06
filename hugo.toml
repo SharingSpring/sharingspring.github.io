@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://sharingspring.github.io"
+baseURL = "https://sharingspring.github.io/"
 title = "SharingSpring"
 theme = "port-hugo"
 publishDir = "docs"
