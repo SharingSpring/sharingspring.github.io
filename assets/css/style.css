@@ -803,6 +803,12 @@ input:checked + label span:last-child {
   width: 90%;
 }
 
+.about-me-text h3 {
+  color: #6f6f6f;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
 /* ========= Start Experience ======= */
 
 .experience-skill {
