@@ -30,6 +30,8 @@ link = "plugins/text-animation/text-animation.js"
 [[params.plugins.js]]
 link = "plugins/hugrid/hugrid.min.js"
 
+canonifyURLs = true
+relativeURLs = true
 
 ############################## navigation ###############################
 
