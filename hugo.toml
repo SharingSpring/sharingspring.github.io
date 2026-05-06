@@ -32,6 +32,7 @@ link = "plugins/hugrid/hugrid.min.js"
 
 canonifyURLs = true
 relativeURLs = true
+extended = true
 
 ############################## navigation ###############################
 
