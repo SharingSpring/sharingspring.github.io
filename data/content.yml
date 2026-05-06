@@ -11,7 +11,7 @@ hero:
   # hero background image
   bg_image: 'images/green2.jpeg'
   # optional mobile breakpoint background
-  mobile_bg_image: 'images/gus_small.jpg'
+  mobile_bg_image: 'images/green2.jpeg'
 
 ########################### About ##################################
 about:
@@ -49,9 +49,9 @@ experience:
 funfacts:
   enable: true
   funfacts_list:
-    - name: 'CUPS PER DAY'
-      image: 'images/icons/coffee-cup.png'
-      count: '2'
+    # - name: 'CUPS PER DAY'
+    #   image: 'images/icons/coffee-cup.png'
+    #   count: '2'
 
     # - name: 'SITES BUILT'
     #   image: 'images/icons/web-development.png'
