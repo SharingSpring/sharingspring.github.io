@@ -74,7 +74,7 @@ weight = 2
 
 #################### default parameters ################################
 [params]
-copyright = "Copyright Michelle Park &copy;"
+copyright = "All Rights Reserved &copy;"
 # Meta data
 description = "Personal Portfolio"
 author = "Michelle Park"

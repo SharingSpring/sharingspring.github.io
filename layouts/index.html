@@ -18,7 +18,7 @@
       >
         <div class="text-holder">
           <h1>{{ .title | safeHTML }}</h1>
-          <h2>{{ .license | markdownify | emojify }}</h2>
+          <h3>{{ .degree | markdownify }}</h3>
           <p>{{ .content | markdownify | emojify }}</p>
           {{ if .button.enable }} {{ with .button }}
           <a
