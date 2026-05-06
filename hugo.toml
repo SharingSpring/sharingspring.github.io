@@ -30,9 +30,11 @@ link = "plugins/text-animation/text-animation.js"
 [[params.plugins.js]]
 link = "plugins/hugrid/hugrid.min.js"
 
-canonifyURLs = true
-relativeURLs = true
-extended = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 ############################## language ###############################
 
