@@ -53,6 +53,16 @@ skill:
     - name: Clinical Psychology Practitioner, Level 2
       issue: Administered through Human Resources Development Service of Korea and issued by the Ministry of Health and Welfare, Republic of Korea.
 
+education:
+  enable: true
+  title: 'EDUCATION'
+  education_list:
+    - name: M.A. in Counseling Psychology, Boston College
+      # issue: Administered through Human Resources Development Service of Korea and issued by the Ministry of Health and Welfare, Republic of Korea.
+
+    - name: M.S.Ed. in Intercultural Communication, University of Pennsylvania
+
+    - name: B.A. in Linguistics with a minor in Chinese Studies, UC San Diego 
 ######################### funfacts #############################3
 funfacts:
   enable: false

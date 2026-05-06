@@ -67,7 +67,7 @@ URL = "#about"
 weight = 2
 
 [[menu.main]]
-name = "Book Appointment"
+name = "Book Appointments"
 URL = "#"
 weight = 4
 
