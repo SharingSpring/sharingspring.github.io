@@ -1370,6 +1370,11 @@ ul.experience-chart h4 {
   }
 }
 
+@media (max-width: 576px) {
+  .about-me-text h1{
+    font-size: 1.6rem;      /* 원래 크기보다 조금 줄여서 세팅 */
+  }
+}
 /*--------------------------------
    End About Me
 ----------------------------------*/
