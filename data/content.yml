@@ -17,8 +17,8 @@ hero:
 about:
   enable: true
   image: 'images/mpark.jpeg'
-  title: 'Michelle Park (박우아)'
-  degree: 'M.A., M.S.Ed.'
+  title: 'Michelle Park (박우아), M.A., M.S.Ed.'
+  # degree: 'M.A., M.S.Ed.'
   content: I provide individual counseling in both Korean and English and am fluent in both languages. Having worked with clients from over 25 countries and across a wide range of ethnic, cultural, social, and religious backgrounds, I bring experience supporting diverse populations, including bi- and multicultural individuals, multicultural families, third culture individuals, U.S. veterans, expatriate families, exchange students, Korean adoptees, Korean returnees, local Korean nationals, and foreign professionals working in Korea. I have also collaborated with churches, international companies, and educational institutions, including international schools throughout South Korea.<br><br> My clinical specialties include anxiety and panic disorders, depression, trauma and PTSD, ADHD, and grief counseling (including pet loss). I also support clients navigating life transitions and adjustment-related stress, identity development, intercultural challenges, interpersonal relationships, self-esteem, and career concerns. In addition, I provide parent education and guidance for parenting-related stress.
   button:
     enable: false
