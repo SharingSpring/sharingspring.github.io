@@ -17,9 +17,9 @@ hero:
 about:
   enable: true
   image: 'images/mpark.jpeg'
-  title: 'Michelle Park (박우아), M.A., M.S.Ed.'
+  title: '박우아, M.A., M.S.Ed.'
   # degree: 'M.A., M.S.Ed.'
-  content: I provide individual therapy in both Korean and English and am fluent in both languages. Having worked with clients from over 25 countries and across a wide range of ethnic, cultural, social, and religious backgrounds, I bring experience supporting diverse populations, including bi- and multicultural individuals, multicultural families, third culture individuals, U.S. veterans, expatriate families, exchange students, Korean adoptees, Korean returnees, local Korean nationals, and foreign professionals working in Korea. I have also collaborated with churches, international companies, and educational institutions, including international schools throughout South Korea.<br><br> My clinical specialties include anxiety and panic disorders, depression, trauma and PTSD, ADHD, and grief counseling (including pet loss). I also support clients navigating life transitions and adjustment-related stress, identity development, intercultural challenges, interpersonal relationships, self-esteem, and career concerns. In addition, I offer parent education and guidance for parenting-related stress.<br><br>I provide integrative psychotherapy grounded in multicultural counseling, informed by cognitive-behavioral and psychodynamic approaches. Recognizing that many clients seek therapy during times of vulnerability, I strive to build and practice a collaborative, culturally responsive therapeutic relationship that honors each individual’s lived experience. Through therapy, I aim to support clients in developing greater self-understanding, emotional resilience, and meaningful, lasting change.
+  content: 저는 한국어와 영어로 개인 심리상담 및 심리치료를 제공하고 있으며, 두 언어를 모두 편안하게 구사할 수 있습니다. 인종적·문화적·사회적·종교적 배경이 다양한 25개국 이상의 국적을 갖고 계신 내담자 분들을 상담해 온 경험을 바탕으로 제가 상담실에서 만나 뵈었던 대상은 다음과 같습니다 - 이중문화 및 다문화 배경의 개인, 다문화 가정, 제3문화 아이들 (TCK), 한국계 미국인 주한미군, 국외 거주자, 교환학생, 한국계 입양인, 한국 귀국자, 국내 거주 한국인, 그리고 한국에서 근무하는 외국인 종사자. 또한 국내 여러 국제학교를 비롯한 교육기관, 한국 내 외국계열사 기업, 교회와 협력했습니다. <br><br> 저의 상담 전문 분야는 불안 및 공황장애, 우울, 트라우마 및 PTSD, ADHD, 그리고 반려동물 상실을 포함한 애도 상담입니다. 삶의 전환 과정과 적응 스트레스, 정체성 발달, 문화 간 적응의 어려움, 대인관계 문제, 자존감, 진로 및 커리어 관련 고민을 경험하는 내담자 분들과 상담을 진행했습니다. 이와 더불어 부모 역할과 양육 스트레스와 관련된 부모 교육 및 상담도 제공하고 있습니다. <br><br> 저는 다문화 상담에 기반을 둔 통합적 심리치료를 제공하며, 인지행동적 접근과 정신역동적 접근에 기반한 치료적 관점을 함께 통합하여 작업합니다. 많은 내담자 분들께서 마음이 지치고 어려운 시기에 상담을 찾는다는 점을 특히 중요시 여기며, 각 개인의 삶의 경험과 문화적 맥락을 존중하는 협력적이고 문화적으로 민감한 치료적 관계를 형성하고 실천하고자 노력합니다. 상담과 심리치료를 통해 내담자 분들께서 더 깊은 자기이해와 정서적 회복탄력성을 기르고, 의미 있고 지속적인 변화를 경험할 수 있도록 돕는 것을 목표로 하고 있습니다. 
   button:
     enable: false
     label: 'DOWNLOAD MY RESUME'
@@ -29,40 +29,40 @@ about:
 ###########################3 Experience ##############################
 experience:
   enable: true
-  title: 'EXPERIENCE'
+  title: '이력'
   experience_list:
-    - name: Clinical Therapist (임상심리사)
-      company: Seoul Counseling Center 
+    - name: 임상심리사
+      company: 서울상담센터 
       duration: '2021-2026'
       # content: I make websites.
 
-    - name: Global Therapist for EAP (Employee Assistance Program) 
+    - name: 글로벌 기업상담사 
       company: Spring Health
       duration: '2025'
       # content: Okay. 
 
-    - name: Counselor (특별상담원) at the University Counseling Center 
-      company: Seoul National University Center for Campus Life & Culture 
+    - name: 특별상담원 
+      company: 서울대학교 대학생활문화원
       duration: '2019-2021'
       # content: Okay.
 
 skill:
   enable: true
-  title: 'LICENSE'
+  title: '자격증'
   skill_list:
-    - name: Clinical Psychology Practitioner, Level 2
-      issue: Administered through Human Resources Development Service of Korea and issued by the Ministry of Health and Welfare, Republic of Korea.
+    - name: 임상심리사 2급
+      issue: 국가기술자격증, 한국산업인력공단
 
 education:
   enable: true
-  title: 'EDUCATION'
+  title: '학력'
   education_list:
-    - name: M.A. in Counseling Psychology, Boston College
+    - name: 상담심리학 석사, 보스톤 컬리지
       # issue: Administered through Human Resources Development Service of Korea and issued by the Ministry of Health and Welfare, Republic of Korea.
 
-    - name: M.S.Ed. in Intercultural Communication, University of Pennsylvania
+    - name: 문화간 소통, 교육학 석사, 펜실베니아 대학교 (유펜)
 
-    - name: B.A. in Linguistics with a minor in Chinese Studies, UC San Diego 
+    - name: 언어학 학사, 중국어 부전공, 캘리포니아 주립대학, 샌디에고
 ######################### funfacts #############################3
 funfacts:
   enable: false

@@ -4,6 +4,9 @@ title = "SharingSpring"
 theme = "port-hugo"
 publishDir = "docs"
 
+defaultContentLanguage = 'ko'   # 기본 언어 설정
+hasCJKLanguage = true           # 한국어/중국어/일본어 줄바꿈/단어 계산 최적화
+
 ############################# Plugins ##############################
 
 # CSS Plugins
@@ -38,44 +41,61 @@ link = "plugins/hugrid/hugrid.min.js"
 
 ############################## language ###############################
 
-defaultContentLanguage = 'ko'   # 기본 언어 설정
-hasCJKLanguage = true           # 한국어/중국어/일본어 줄바꿈/단어 계산 최적화
-
 [languages]
+  # --------------------------
+  # 한국어 설정 (기본)
+  # --------------------------
   [languages.ko]
-    languageName = '한국어'
-    contentDir = 'content/ko'    # (선택사항) 한국어 콘텐츠 폴더 분리 시
-    weight = 1                  # 언어 선택기에서 순서
+    languageName = "한국어"
+    contentDir = "content"
+    weight = 1
+    
+    # 한국어 메뉴
+    [[languages.ko.menu.main]]
+      name = "홈"
+      URL = "#"
+      weight = 1
+    [[languages.ko.menu.main]]
+      name = "상담사소개"
+      URL = "#about"
+      weight = 2
+    #[[languages.ko.menu.main]]
+    #  name = "FAQ"
+    #  URL = "#"
+    #  weight = 3
+    [[languages.ko.menu.main]]
+      name = "EN"        # 영어로 전환하는 버튼
+      URL = "/en/"      # 영어 사이트 경로
+      weight = 10       # 맨 오른쪽에 배치
 
+  # --------------------------
+  # 영어 설정
+  # --------------------------
   [languages.en]
-    languageName = 'English'
-    contentDir = 'content/en'
+    languageName = "English"
+    contentDir = "content"
     weight = 2
+    [languages.en.params]
+      # 영어 페이지일 때 data/content_en.yml을 읽도록 파라미터 지정
+      contentData = "content_en"
 
-
-############################## navigation ###############################
-
-# main menu
-[[menu.main]]
-name = "Home"
-URL = "#"
-weight = 1
-
-[[menu.main]]
-name = "About me"
-URL = "#about"
-weight = 2
-
-[[menu.main]]
-name = "Book Appointments"
-URL = "#"
-weight = 4
-
-[[menu.main]]
-name = "FAQ"
-URL = "#"
-weight = 3
-
+    # 영어 메뉴
+    [[languages.en.menu.main]]
+      name = "Home"
+      URL = "#"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "About Me"
+      URL = "#about"
+      weight = 2
+    #[[languages.en.menu.main]]
+    #  name = "FAQ"
+    #  URL = "#"
+    #  weight = 3
+    [[languages.en.menu.main]]
+      name = "KO"        # 한국어로 전환하는 버튼
+      URL = "/"         # 한국어 사이트 경로
+      weight = 10
 
 #################### default parameters ################################
 [params]
