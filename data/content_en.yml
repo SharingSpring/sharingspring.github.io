@@ -1,0 +1,80 @@
+########################## hero area ##########################
+hero:
+  title: "sharing spring"
+
+  # animated text loop
+  occupations:
+    # - '심리상담소 봄나눔'
+    - '영어 심리상담'
+    - '한국어 심리상담'
+
+  # hero background image
+  bg_image: 'images/green2.jpeg'
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/green2.jpeg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/mpark.jpeg'
+  title: 'Michelle Park, M.A., M.S.Ed.'
+  # degree: 'M.A., M.S.Ed.'
+  content: I provide individual therapy in both Korean and English and am fluent in both languages. Having worked with clients from over 25 countries and across a wide range of ethnic, cultural, social, and religious backgrounds, I bring experience supporting diverse populations, including bi- and multicultural individuals, multicultural families, third culture individuals, Korean-American veterans, expatriate families, exchange students, Korean adoptees, Korean returnees, local Korean nationals, and foreign professionals working in Korea. I have also collaborated with churches, international companies, and educational institutions, including international schools throughout South Korea.<br><br> My clinical specialties include anxiety and panic disorders, depression, trauma and PTSD, ADHD, and grief counseling (including pet loss). I also work with clients navigating life transitions and adjustment-related stress, identity development, intercultural challenges, interpersonal relationships, self-esteem, and career concerns. In addition, I offer parent education and guidance for parenting-related stress.<br><br>I provide integrative psychotherapy grounded in multicultural counseling, informed by cognitive-behavioral and psychodynamic approaches. Recognizing that many clients seek therapy during times of vulnerability, I strive to build and practice a collaborative, culturally responsive therapeutic relationship that honors each individual’s lived experience. Through therapy, I aim to support clients in developing greater self-understanding, emotional resilience, and meaningful, lasting change.
+  button:
+    enable: false
+    label: 'DOWNLOAD MY RESUME'
+    link: #
+    icon: 'fa-download'
+
+###########################3 Experience ##############################
+experience:
+  enable: true
+  title: 'EXPERIENCE'
+  experience_list:
+    - name: Clinical Therapist
+      company: Seoul Counseling Center 
+      duration: '2021-2026'
+      # content: I make websites.
+
+    - name: Global Therapist for EAP (Employee Assistance Program) 
+      company: Spring Health
+      duration: '2025'
+      # content: Okay. 
+
+    - name: Counselor at the University Counseling Center 
+      company: Seoul National University Center for Campus Life & Culture 
+      duration: '2019-2021'
+      # content: Okay.
+
+skill:
+  enable: true
+  title: 'LICENSE'
+  skill_list:
+    - name: Clinical Psychology Practitioner, Level 2
+      issue: Administered through Human Resources Development Service of Korea and issued by the Ministry of Health and Welfare, Republic of Korea.
+
+education:
+  enable: true
+  title: 'EDUCATION'
+  education_list:
+    - name: M.A. in Counseling Psychology, Boston College
+      # issue: Administered through Human Resources Development Service of Korea and issued by the Ministry of Health and Welfare, Republic of Korea.
+
+    - name: M.S.Ed. in Intercultural Communication, University of Pennsylvania
+
+    - name: B.A. in Linguistics with a minor in Chinese Studies, UC San Diego 
+######################### funfacts #############################3
+funfacts:
+  enable: false
+  funfacts_list:
+    - name: 'CUPS PER DAY'
+      image: 'images/icons/coffee-cup.png'
+      count: '2'
+
+    - name: 'SITES BUILT'
+      image: 'images/icons/web-development.png'
+      count: '25'
+
+    - name: 'USELESS ROW OF ICONS'
+      image: 'images/icons/happy.png'
+      count: '1'
