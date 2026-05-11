@@ -53,6 +53,9 @@ skill:
     - name: 임상심리사 2급
       issue: 국가기술자격증, 한국산업인력공단
 
+    - name: 나봄너봄함께봄 자살예방 교육 프로그램 독립 강사
+      issue: (사)한국자살예방협회
+
 education:
   enable: true
   title: '학력'
