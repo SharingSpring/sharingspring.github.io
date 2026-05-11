@@ -72,6 +72,22 @@
       {{ end }} {{ end }} 
 
       <div class="col-lg-6 col-sm-6 col-11 skill">
+
+      {{ if $data.education.enable }} 
+      {{ with $data.education }}
+        <h2>{{ .title }}</h2>
+        <div class="skill-progress-bar">
+          {{ range .education_list }}
+          <div class="clearfix">
+            <span class="skillbar-title">{{ .name }}</span>
+            <p>{{ .issue | markdownify | emojify }}</p>
+          </div>
+          {{ end }}
+        </div>
+      {{ end }} {{ end }}
+
+      <br><br>
+
       {{ if $data.skill.enable }} 
       {{ with $data.skill }}
       <!-- <div class="col-lg-6 col-sm-6 col-11 skill"> -->
@@ -86,19 +102,7 @@
         </div>
       <!-- </div> -->
       {{ end }} {{ end }}
-      <br><br>
-      {{ if $data.education.enable }} 
-      {{ with $data.education }}
-        <h2>{{ .title }}</h2>
-        <div class="skill-progress-bar">
-          {{ range .education_list }}
-          <div class="clearfix">
-            <span class="skillbar-title">{{ .name }}</span>
-            <p>{{ .issue | markdownify | emojify }}</p>
-          </div>
-          {{ end }}
-        </div>
-      {{ end }} {{ end }}
+      
       </div>
     </div>
   </div>
