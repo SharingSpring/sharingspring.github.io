@@ -5,8 +5,8 @@ hero:
   # animated text loop
   occupations:
     # - '심리상담소 봄나눔'
-    - '영어 심리상담'
-    - '한국어 심리상담'
+    - 'Therapy in English'
+    - 'Therapy in Korean'
 
   # hero background image
   bg_image: 'images/green2.jpeg'
@@ -53,7 +53,7 @@ skill:
     - name: Clinical Psychology Practitioner, Level 2
       issue: Administered through Human Resources Development Service of Korea and issued by the Ministry of Health and Welfare, Republic of Korea.
 
-    - name: Suicide Prevention Speaker
+    - name: Certified Suicide Prevention Speaker
       issue: Korea Association for Suicide Prevention
       
 education:
