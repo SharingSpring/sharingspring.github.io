@@ -29,7 +29,7 @@ about:
 ###########################3 Experience ##############################
 experience:
   enable: true
-  title: '이력'
+  title: '상담이력'
   experience_list:
     - name: 임상심리사
       company: 서울상담센터 
