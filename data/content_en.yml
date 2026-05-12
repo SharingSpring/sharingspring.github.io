@@ -53,6 +53,9 @@ skill:
     - name: Clinical Psychology Practitioner, Level 2
       issue: Administered through Human Resources Development Service of Korea and issued by the Ministry of Health and Welfare, Republic of Korea.
 
+    - name: Suicide Prevention Speaker
+      issue: Korea Association for Suicide Prevention
+      
 education:
   enable: true
   title: 'EDUCATION'
