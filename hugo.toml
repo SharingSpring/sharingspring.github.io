@@ -115,23 +115,21 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 ############################# social site ########################
 
-[[params.social]]
-icon = "fab fa-instagram"
-link = "https://www.instagram.com/sharingspring"
+# [[params.social]]
+# icon = "fab fa-instagram"
+# link = "https://www.instagram.com/sharingspring"
 
-[[params.social]]
-icon = "fab fa-linkedin"
-link = "https://kr.linkedin.com/in/michellepark-sharingspring"
+# [[params.social]]
+# icon = "fab fa-linkedin"
+# link = "https://kr.linkedin.com/in/michellepark-sharingspring"
 
-[[params.social]]
-icon = "fab fa-threads"
-link = "https://www.threads.com/@sharingspring"
+# [[params.social]]
+# icon = "fab fa-threads"
+# link = "https://www.threads.com/@sharingspring"
 
-
-
-#[[params.social]]
-#icon = "fas fa-envelope"
-#link = "mailto:guster@burton.com"
+# [[params.social]]
+# icon = "fas fa-envelope"
+# link = "mailto:guster@burton.com"
 
 
 contentDir = "content/english"
