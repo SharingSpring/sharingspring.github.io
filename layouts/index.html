@@ -1,9 +1,14 @@
-{{ define "main" }} {{- partial "menu.html" . -}} {{- partial "header.html" .
--}}
+{{ define "main" }} 
 
 <!-- 1. 언어별 데이터 파일 선택 로직 추가 -->
 {{ $contentFile := .Language.Params.contentData | default "content" }}
 {{ $data := index .Site.Data $contentFile }}
+
+{{- partial "menu.html" . -}} 
+
+{{- partial "header.html" . -}}
+
+
 
 <!-- =============================
        Start About Me

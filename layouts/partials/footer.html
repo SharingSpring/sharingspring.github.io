@@ -9,6 +9,12 @@
     {{ end }}
   </ul>
   <div class="credit">
+    {{ range $.Site.Params.address }}
+      <p>{{ .address | markdownify }}</p>
+    {{ end }}
+    <br>
+  </div>
+  <div class="credit">
     {{ $.Site.Params.copyright | markdownify }}
     <span id="current-year"></span>
   </div>
