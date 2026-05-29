@@ -8,14 +8,23 @@
       </li>
     {{ end }}
   </ul>
-  <div class="credit">
-    {{ range $.Site.Params.address }}
-      <p>{{ .address | markdownify }}</p>
-    {{ end }}
-    <br>
-  </div>
-  <div class="credit">
-    {{ $.Site.Params.copyright | markdownify }}
-    <span id="current-year"></span>
+
+  <div class="credit" style="position: absolute; bottom: 15px; left: 0; right: 0;">
+    
+    <div class="remark-group" style="margin-bottom: 25px;"> {{ range $.Site.Params.remark }}
+        <p style="margin: 0 0 5px 0;">{{ .remark | markdownify }}</p>
+      {{ end }}
+    </div>
+
+    <div class="address-group" style="margin-bottom: 25px;"> {{ range $.Site.Params.address }}
+        <p style="margin: 0 0 5px 0;">{{ .address | markdownify }}</p>
+      {{ end }}
+    </div>
+
+    <div class="copyright-group">
+      {{ $.Site.Params.copyright | markdownify }}
+      <span id="current-year"></span>
+    </div>
+
   </div>
 </div>
