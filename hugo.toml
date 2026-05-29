@@ -60,7 +60,7 @@ link = "plugins/hugrid/hugrid.min.js"
       URL = "/#about"
       weight = 2
     [[languages.ko.menu.main]]
-      name = "센터 소개"
+      name = "상담소 소개"
       URL = "/intro/"
       weight = 3
     [[languages.ko.menu.main]]
@@ -89,7 +89,7 @@ link = "plugins/hugrid/hugrid.min.js"
       URL = "/en/#about"
       weight = 2
     [[languages.en.menu.main]]
-      name = "About Center"
+      name = "Introduction"
       URL = "/en/intro/"
       weight = 3
     [[languages.en.menu.main]]
