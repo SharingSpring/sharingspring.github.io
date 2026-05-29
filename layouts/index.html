@@ -18,6 +18,16 @@
     {{ if $data.about.enable }} 
     {{ with $data.about }}
     <div class="row about-me-holder">
+      <div class="
+          col-lg-11 col-md-11 col-sm-11 col-11
+          about-me-text
+          d-flex
+          align-self-center
+        ">
+        <div class="text-holder">
+          <h1>{{ .title | safeHTML }}</h1>
+        </div>
+      </div>
       <div
         class="
           col-lg-8 col-md-8 col-sm-8 col-11
@@ -27,7 +37,6 @@
         "
       >
         <div class="text-holder">
-          <h1>{{ .title | safeHTML }}</h1>
           <h3>{{ .degree | markdownify }}</h3>
           <p>{{ .content | markdownify | emojify }}</p>
           {{ if .button.enable }} {{ with .button }}
