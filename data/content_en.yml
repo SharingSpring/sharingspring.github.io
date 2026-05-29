@@ -81,3 +81,10 @@ funfacts:
     - name: 'USELESS ROW OF ICONS'
       image: 'images/icons/happy.png'
       count: '1'
+
+############### 센터 소개 ##############
+center:
+  enable: true
+  image: 'images/center_intro_2.jpeg'
+  title: "Introduction to SharingSpring"
+  content: "You have found me, and I am truly grateful that our paths have crossed — or crossed again. I named my private practice “SharingSpring” based on my experiences both within and beyond the therapy room. Just as spring quietly emerges after a long winter with the first hint of a green sprout, I have had the privilege of witnessing growth, healing, and resilience alongside my clients over the years. Walking with clients through their journeys has often felt like discovering and experiencing “spring” together. <br><br> Therapy is a collaborative process built on trust, openness, and mutual commitment, and it is my hope that through our work together, we may discover and experience moments of “spring.” Thank you in advance for placing your trust in this therapeutic relationship and for being willing to take this step with me. <br><br> Once you request a session through the “Appointments” tab on this website, you will receive a guideline email that walks you through the next steps so that we can both feel prepared for our first session together. I look forward to meeting and working with you!"

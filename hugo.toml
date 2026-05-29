@@ -53,16 +53,16 @@ link = "plugins/hugrid/hugrid.min.js"
     # 한국어 메뉴
     [[languages.ko.menu.main]]
       name = "홈"
-      URL = "#"
+      URL = "/"
       weight = 1
     [[languages.ko.menu.main]]
-      name = "상담사소개"
-      URL = "#about"
+      name = "상담사 소개"
+      URL = "/#about"
       weight = 2
-    #[[languages.ko.menu.main]]
-    #  name = "FAQ"
-    #  URL = "#"
-    #  weight = 3
+    [[languages.ko.menu.main]]
+      name = "센터 소개"
+      URL = "/intro/"
+      weight = 3
     [[languages.ko.menu.main]]
       name = "EN"        # 영어로 전환하는 버튼
       URL = "/en/"      # 영어 사이트 경로
@@ -82,16 +82,16 @@ link = "plugins/hugrid/hugrid.min.js"
     # 영어 메뉴
     [[languages.en.menu.main]]
       name = "Home"
-      URL = "#"
+      URL = "/en/"
       weight = 1
     [[languages.en.menu.main]]
       name = "About Me"
-      URL = "#about"
+      URL = "/en/#about"
       weight = 2
-    #[[languages.en.menu.main]]
-    #  name = "FAQ"
-    #  URL = "#"
-    #  weight = 3
+    [[languages.en.menu.main]]
+      name = "About Center"
+      URL = "/en/intro/"
+      weight = 3
     [[languages.en.menu.main]]
       name = "KO"        # 한국어로 전환하는 버튼
       URL = "/"         # 한국어 사이트 경로

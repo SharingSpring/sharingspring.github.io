@@ -594,11 +594,40 @@ input:checked + label span:last-child {
   margin-right: 20px;
 }
 
+/* 기본 마우스 오버(Hover) 및 포커스 시 밑줄 등장 */
 .desktop-menu .hvr-underline-from-left:hover:before,
 .desktop-menu .hvr-underline-from-left:focus:before,
-.desktop-menu .hvr-underline-from-left:active:before,
+.desktop-menu .hvr-underline-from-left:active:before {
+  right: 0 !important;
+}
+
+/* 일반적인 상황에서 active 클래스가 붙으면 밑줄 고정 */
 .desktop-menu .hvr-underline-from-left.active:before {
   right: 0;
+}
+
+/* [추가] 메인 홈 화면 맨 위에 머물고 있을 때 (스크롤이 최상단일 때) */
+/* 상담사소개(두 번째 메뉴)에 자바스크립트가 active를 강제로 켜두었더라도 밑줄을 꺼줍니다. */
+body.home .desktop-menu .menu-item:nth-child(2).active:before {
+  right: 100% !important;
+}
+
+/* 다만 메인 홈이더라도 상담사소개 메뉴에 마우스를 올리면 밑줄이 보여야 합니다. */
+body.home .desktop-menu .menu-item:nth-child(2).active:hover:before {
+  right: 0 !important;
+}
+
+/* 독립 서브페이지(/intro/ 등)로 이동했을 때 */
+/* 메인 홈이 아닌 페이지에서는 첫 번째(홈)와 두 번째(상담사소개) 메뉴의 active 고정 밑줄을 강제로 해제합니다. */
+body:not(.home) .desktop-menu .menu-item:first-child.active:before,
+body:not(.home) .desktop-menu .menu-item:nth-child(2).active:before {
+  right: 100% !important;
+}
+
+/* 서브페이지에 있더라도 홈이나 소개 메뉴에 마우스를 올렸을 때는 밑줄이 정상 작동하도록 예외 처리 */
+body:not(.home) .desktop-menu .menu-item:first-child.active:hover:before,
+body:not(.home) .desktop-menu .menu-item:nth-child(2).active:hover:before {
+  right: 0 !important;
 }
 
 .desktop-menu .hvr-underline-from-left:before {
