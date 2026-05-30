@@ -147,7 +147,7 @@ remark2 = "Will be taking online therapy sessions for now."
 
 [[params.address]]
 address = "서울 특별시 마포구 와우산로 105, 5층 242A호"
-
+registnum = "사업자번호: 673-04-03744"
 
 contentDir = "content/english"
 weight = 1
