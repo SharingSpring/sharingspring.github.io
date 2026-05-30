@@ -20,11 +20,15 @@
       {{ end }}
     </div>
 
-    <div class="address-group" style="margin-bottom: 25px;"> {{ range $.Site.Params.address }}
+    <div class="address-group" style="margin-bottom: 5px;"> {{ range $.Site.Params.address }}
         <p style="margin: 0 0 5px 0;">{{ .address | markdownify }}</p>
       {{ end }}
     </div>
-
+    <div class="address-group" style="margin-bottom: 25px;"> {{ range $.Site.Params.address }}
+        <p style="margin: 0 0 5px 0;">{{ .registnum | markdownify }}</p>
+      {{ end }}
+    </div>
+    
     <div class="copyright-group">
       {{ $.Site.Params.copyright | markdownify }}
       <span id="current-year"></span>
