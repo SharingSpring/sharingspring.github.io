@@ -1,0 +1,35 @@
+{{ define "main" }} 
+
+<!-- 1. 언어별 데이터 파일 선택 로직 추가 -->
+{{ $contentFile := .Language.Params.contentData | default "content" }}
+{{ $data := index .Site.Data $contentFile }}
+
+{{- partial "menu.html" . -}} 
+
+
+<section class="booking-page-section" style="padding-top: 130px; padding-bottom: 90px; background: #fff;">
+  <div class="container text-center">
+    
+    <h1 style="font-weight: 700; color: #4d4d4d; letter-spacing: 2px; margin-bottom: 10px;">
+      {{ if eq .Site.Language.Lang "ko" }}상담 예약하기{{ else }}Book an Appointment{{ end }}
+    </h1>
+    <hr style="width: 60px; border-top: 3px solid #6f6f6f; margin: 0 auto 40px auto;">
+
+    <div class="carepatron-iframe-wrapper" style="width: 100%; max-width: 900px; margin: 0 auto; min-height: 700px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-radius: 8px; overflow: hidden;">
+      
+      <iframe 
+        src="https://book.carepatron.com/Sharing-Spring/Wua--Michelle-?p=ltVpnOusSwmKsQ1cbpEMRQ&s=dnRBOVOP&e=i" 
+        width="100%" 
+        height="750px" 
+        frameborder="0" 
+        scrolling="yes"
+        style="border: none; display: block;">
+      </iframe>
+      
+    </div>
+
+  </div>
+</section>
+
+
+{{- partial "footer.html" . -}} {{ end }}
