@@ -815,7 +815,7 @@ body:not(.home) .desktop-menu .menu-item:nth-child(2).active:hover:before {
 
 .about-me-text p {
   color: #6f6f6f;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .download-cv:hover,
@@ -930,7 +930,7 @@ ul.experience-chart h4 {
 
 .skillbar-title,
 .skill-bar-percent {
-  font-size: 16px;
+  font-size: 18px;
   color: #4d4d4d;
   font-weight: 700;
   display: inline-block;
@@ -947,6 +947,32 @@ ul.experience-chart h4 {
   width: 0px;
   background: #4d4d4d;
   border-radius: 22px;
+}
+
+/* ========= Education Custom ======= */
+
+/* 학력 섹션의 타이틀은 한 줄로 아이콘과 정렬되도록 변경 */
+.education-list .skillbar-title {
+  display: block;
+  margin-bottom: 0px; /* 아이콘과 수평을 맞추기 위해 하단 마진 제거 */
+}
+
+/* 아이콘 오른쪽 마진 살짝 부여 */
+.education-list .fa-circle {
+  margin-right: 8px;
+  color: #4d4d4d;
+}
+
+/* 학력 세트(아이템) 간의 간격과 설명글 스타일 정의 */
+.education-item {
+  margin-bottom: 30px; /* 각 학력 사항 사이의 간격 */
+}
+
+.education-issue {
+  margin-top: 6px;
+  margin-left: 28px;  /* ◀ 설명 글이 시작될 때 아이콘 크기만큼 들여쓰기 */
+  color: #6f6f6f;
+  font-size: 15px;
 }
 
 /*--------------------------------
@@ -973,6 +999,29 @@ ul.experience-chart h4 {
 .hidden {
   display: none !important;
 }
+
+/*--------------------------------
+   Start faq
+----------------------------------*/
+
+.faq-title {
+  font-size: 20px;
+  color: #4d4d4d;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 4px; 
+}
+.faq-answer {
+  color: #6f6f6f;
+  font-size: 20px;
+}
+
+.faq-item-set {
+  margin-bottom: 30px !important; /* ◀ 이 숫자를 키울수록 세트 사이가 넓어집니다 (기본 35px~45px 추천) */
+}
+/*--------------------------------
+   End faq
+----------------------------------*/
 
 /* ========= 7.2 Start Fun Facts ======= */
 

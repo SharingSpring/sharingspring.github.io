@@ -1,0 +1,40 @@
+{{ define "main" }} 
+
+<!-- 1. 언어별 데이터 파일 선택 로직 추가 -->
+{{ $contentFile := .Language.Params.contentData | default "content" }}
+{{ $data := index .Site.Data $contentFile }}
+
+{{- partial "menu.html" . -}} 
+
+<section class="about-me" id="about">
+  <div class="container">
+    <div class="row experience-skill">
+      <!-- <div class="col-lg-10 col-sm-10 col-11 faq-block"> -->
+      {{ if $data.faq.enable }} 
+      {{ with $data.faq }}
+        <h2 style="font-weight: 700; color: #6f6f6f; margin-bottom: 30px;">{{ .title }}</h2>
+        <div class="faq-list-wrapper">
+          {{ range .faq_list }}
+          <div class="faq-item-set clearfix"> 
+            <span class="faq-title">Q. {{ .name }}</span>
+            <div class="faq-answer">{{ .answer | markdownify | emojify }}</div>
+          </div>
+          {{ end }}
+        </div>
+        <div class="faq-answer">
+            {{ if eq $.Site.Language.Lang "ko" }}
+            추가적인 문의사항은 sharingspring2026@gmail.com 로 이메일 부탁드립니다.
+            {{ else }}
+            For additional questions, please email sharingspring2026@gmail.com.
+            {{ end }}
+        </div>
+      {{ end }} {{ end }}
+      <!-- </div> -->
+    </div>
+  </div>
+
+  
+</section>
+
+
+{{- partial "footer.html" . -}} {{ end }}
