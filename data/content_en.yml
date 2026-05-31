@@ -91,7 +91,7 @@ center:
   enable: true
   image: 'images/center_intro_3.jpeg'
   title: "About SharingSpring"
-  content: "You have found me, and I am truly grateful that our paths have crossed — or crossed again. I named this private practice “SharingSpring” based on my experiences both within and beyond the therapy room. Just as spring quietly emerges after a long winter with the first hint of a green sprout, I have had the privilege of witnessing growth, healing, and resilience alongside my clients over the years. Walking with clients through their journeys has often felt like discovering and experiencing “spring” together. <br><br> Therapy is a collaborative process built on trust, openness, and mutual commitment, and it is my hope that through our work together, we may discover and experience moments of “spring.” Thank you in advance for placing your trust in this therapeutic relationship and for being willing to take this step with me. <br><br> Once you request a session through the “Appointments” tab on this website, you will receive a guideline email that walks you through the next steps so that we can both feel prepared for our first session together. I look forward to meeting and working with you!"
+  content: "You have found me, and I am truly grateful that our paths have crossed — or crossed again. I named this private practice “SharingSpring” based on my experiences both within and beyond the therapy room. Just as spring quietly emerges after a long winter with the first hint of a green sprout, I have had the privilege of witnessing growth, healing, and resilience alongside my clients over the years. Walking with clients through their journeys has often felt like discovering and experiencing “spring” together. <br><br> Therapy is a collaborative process built on trust, openness, and mutual commitment, and it is my hope that through our work together, we may discover and experience moments of “spring.” Thank you in advance for placing your trust in this therapeutic relationship and for being willing to take this step with me. <br><br> Once you request a session through the “[Book Now](/en/booking)” tab on this website, you will receive a guideline email that walks you through the next steps so that we can both feel prepared for our first session together. I look forward to meeting and working with you!"
 
 ############## FAQ. ##################
 faq:
@@ -108,7 +108,7 @@ faq:
       answer: "A. No. However, upon request, I can provide invoices and superbills that clients may submit directly to their U.S. insurance providers for possible out-of-network reimbursement. Please note that reimbursement eligibility and coverage are determined solely by your insurance plan."
 
     - name: "How can I indicate my preferred language (Korean or English) when booking an appointment?"
-      answer: "A. When scheduling your appointment through “Book Now” page, please note your preferred language (Korean or English) in the “Reason for Booking” section. This helps me prepare and send the appropriate intake forms and information in your preferred language prior to our first session."
+      answer: "A. When scheduling your appointment through “[Book Now](/en/booking)” page, please note your preferred language (Korean or English) in the “Reason for Booking” section. This helps me prepare and send the appropriate intake forms and information in your preferred language prior to our first session."
 
     - name: "What forms of payments do you accept?" 
       answer: |
