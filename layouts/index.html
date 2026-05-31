@@ -92,12 +92,14 @@
         <h2>{{ .title }}</h2>
         <div class="skill-progress-bar">
           {{ range .education_list }}
-          <div class="clearfix">
-            <span class="skillbar-title">{{ .name }}</span>
-            <p>{{ .issue | markdownify | emojify }}</p>
+          <div class="clearfix" style="margin-bottom: 20px;"> <div class="education-header" style="display: flex; align-items: flex-start;">
+            <i class="fa-regular fa-circle fa-fw" style="margin-right: 8px; margin-top: 4px; flex-shrink: 0;"></i>
+            <span class="skillbar-title" style="font-weight: 700; color: #4d4d4d; font-size: 16px;">{{ .name }}</span>
           </div>
-          {{ end }}
+          <p style="margin-top: 4px; margin-left: 28px; color: #6f6f6f;">{{ .issue | markdownify | emojify }}</p>   
         </div>
+        {{ end }}
+      </div>
       {{ end }} {{ end }}
 
       <br><br>
@@ -109,6 +111,7 @@
         <div class="skill-progress-bar">
           {{ range .skill_list }}
           <div class="clearfix">
+            <i class="fa-regular fa-circle fa-fw"></i>
             <span class="skillbar-title">{{ .name }}</span>
             <p>{{ .issue | markdownify | emojify }}</p>
           </div>
