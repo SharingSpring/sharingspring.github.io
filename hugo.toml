@@ -115,7 +115,8 @@ link = "plugins/hugrid/hugrid.min.js"
 
 #################### default parameters ################################
 [params]
-copyright = "All Rights Reserved &copy;"
+copyright1 = "&copy; 2026 SharingSpring. All rights reserved."
+copyright2 = "This site is for informational purposes only and does not provide emergency services."
 # Meta data
 description = "Personal Portfolio"
 author = "Michelle Park"
