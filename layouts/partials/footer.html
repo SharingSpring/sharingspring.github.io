@@ -30,8 +30,10 @@
     </div>
     
     <div class="copyright-group">
-      {{ $.Site.Params.copyright | markdownify }}
-      <span id="current-year"></span>
+      {{ $.Site.Params.copyright1 | markdownify }}
+      <!-- <span id="current-year"></span> -->
+      <br>
+      {{ $.Site.Params.copyright2 | markdownify }}
     </div>
 
   </div>
