@@ -9,32 +9,34 @@
     {{ end }}
   </ul>
 
-<div class="credit" style="position: absolute; bottom: 15px; left: 0; right: 0; max-width: 800px; margin: 0 auto;">
+<div class="credit">
 
-    <div class="remark-group" style="margin-bottom: 5px;"> {{ range $.Site.Params.remark }}
+    <div class="remark-group" style="margin-bottom: 5px;"> 
+      {{ range $.Site.Params.remark }}
         <p style="margin: 0 0 5px 0;">{{ .remark1 | markdownify }}</p>
       {{ end }}
     </div>
-    <div class="remark-group" style="margin-bottom: 25px;"> {{ range $.Site.Params.remark }}
+    <div class="remark-group" style="margin-bottom: 25px;"> 
+      {{ range $.Site.Params.remark }}
         <p style="margin: 0 0 5px 0;">{{ .remark2 | markdownify }}</p>
       {{ end }}
     </div>
 
-    <div class="address-group" style="margin-bottom: 5px;"> {{ range $.Site.Params.address }}
+    <div class="address-group" style="margin-bottom: 5px;"> 
+      {{ range $.Site.Params.address }}
         <p style="margin: 0 0 5px 0;">{{ .address | markdownify }}</p>
       {{ end }}
     </div>
-    <div class="address-group" style="margin-bottom: 25px;"> {{ range $.Site.Params.address }}
+    <div class="address-group" style="margin-bottom: 25px;"> 
+      {{ range $.Site.Params.address }}
         <p style="margin: 0 0 5px 0;">{{ .registnum | markdownify }}</p>
       {{ end }}
     </div>
     
     <div class="copyright-group">
       {{ $.Site.Params.copyright1 | markdownify }}
-      <!-- <span id="current-year"></span> -->
       <br>
       {{ $.Site.Params.copyright2 | markdownify }}
     </div>
 
-  </div>
 </div>

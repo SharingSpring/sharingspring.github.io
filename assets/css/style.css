@@ -1117,14 +1117,26 @@ ul.experience-chart h4 {
   transform: translateY(-5px);
 }
 
+/* 1. PC 및 넓은 화면 (기존 스타일 안전하게 이관) */
 .credit {
   position: absolute;
   bottom: 15px;
   left: 0;
   right: 0;
+  max-width: 800px; /* 원하셨던 800px로 유지합니다 */
+  margin: 0 auto;
   text-align: center;
 }
 
+/* 2. 스마트폰 및 태블릿 화면 (화면 폭 768px 이하) */
+@media (max-width: 768px) {
+  .credit {
+    position: relative; /* ◀ 모바일에서는 절대 위치를 해제하여 겹침을 방지합니다 */
+    bottom: 0;
+    margin-top: 60px;   /* ◀ 본문 콘텐츠와 푸터 사이의 숨통을 트여줄 여백 */
+    padding: 0 20px 40px 20px; /* 스마트폰 화면 양옆 여백 및 맨 밑 바닥 여백 */
+  }
+}
 /*--------------------------------
   Start Header
 ----------------------------------*/
