@@ -101,6 +101,9 @@ faq:
     - name: "Can I schedule an in-person session?"
       answer: "A. At this time, I offer therapy services exclusively through online sessions. However, if in-person meetings are determined to be clinically appropriate and necessary, I will make reasonable efforts to explore available options on a case-by-case basis."
 
+    - name: Do you work with minor clients as well?
+      answer: A. Yes, I also provide therapy services for adolescents aged 14 and older.
+      
     - name: "I am located outside of South Korea. Can I schedule an online therapy session?"
       answer: "A. Because professional licensure requirements and regulations vary across jurisdictions, I am only able to provide online therapy services to clients who are physically located in South Korea at the time of their sessions. This is in accordance with my professional licensure and applicable regulations."
 
@@ -123,5 +126,3 @@ faq:
     - name: "How will I know if my appointment request has been confirmed?"
       answer: "A. Once you submit an appointment request through the “Book Now” page, you will receive intake forms in your preferred language (Korean or English) to complete before your first session. You will also receive a payment request via a KakaoTalk notification message from 결제선생, allowing you to conveniently and securely reserve your appointment time. A confirmation of your appointment will be sent after the payment has been received. For more information regarding payment procedures, cancellations, and refunds, please refer to the Payment Policy Agreement included with the intake forms."
 
-    - name: Do you work with minor clients as well?
-      answer: A. Yes, I also provide therapy services for adolescents aged 14 and older.
