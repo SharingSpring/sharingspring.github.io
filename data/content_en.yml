@@ -98,6 +98,9 @@ faq:
   enable: true
   title: "FAQ"
   faq_list:
+    - name: How do I schedule an appointment?
+      answer: A. If you are scheduling your first appointment, please click "This is my first visit" on the “[Book Now](/en/booking)” page. From there, you can select a service offered in your preferred language (English or Korean) and choose an available date and time that works for you. <br><br> After submitting your name, contact information, and a brief reason for your visit, you will receive intake paperwork and additional information by email in your preferred language before your first session.
+
     - name: "Can I schedule an in-person session?"
       answer: "A. At this time, I offer therapy services exclusively through online sessions. However, if in-person meetings are determined to be clinically appropriate and necessary, I will make reasonable efforts to explore available options on a case-by-case basis."
 
@@ -109,9 +112,6 @@ faq:
 
     - name: "Do you provide direct billing to U.S. insurance companies?"
       answer: "A. No. However, upon request, I can provide invoices and superbills that clients may submit directly to their U.S. insurance providers for possible out-of-network reimbursement. Please note that reimbursement eligibility and coverage are determined solely by your insurance plan."
-
-    - name: "How can I indicate my preferred language (Korean or English) when booking an appointment?"
-      answer: "A. When scheduling your appointment through “[Book Now](/en/booking)” page, please note your preferred language (Korean or English) in the “Reason for Booking” section. This helps me prepare and send the appropriate intake forms and information in your preferred language prior to our first session."
 
     - name: "What forms of payments do you accept?" 
       answer: |
