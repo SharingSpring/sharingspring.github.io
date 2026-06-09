@@ -151,8 +151,8 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 ############################# address ########################
 
 [[params.remark]]
-remark1 = "온라인 상담 신청부터 받을 예정입니다."
-remark2 = "Will be taking online therapy sessions for now."
+remark1 = "온라인 상담을 진행 중입니다."
+remark2 = "Now taking online therapy sessions."
 
 [[params.address]]
 address = "서울 특별시 마포구 와우산로 105, 5층 242A호"
