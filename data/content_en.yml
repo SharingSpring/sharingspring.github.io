@@ -123,5 +123,8 @@ faq:
     - name: "What is “결제선생”?"
       answer: "A. 결제선생 (“Payment Teacher”) is a secure payment processing service used by many businesses in South Korea. It allows payment requests to be sent conveniently via KakaoTalk notification messages or text messages, enabling clients to complete credit card payments online without needing to visit the office in person."
 
+    - name: Do you take international cards and any other forms of payments?
+      answer: "A. Yes, following forms of payments are accepted in-person through a registered credit card terminal service: <br> Visa, Master, JCB, American Express, Diners Club, and Discovery, Samsung Pay, and Apple Pay."
+
     - name: "How will I know if my appointment request has been confirmed?"
       answer: "A. Once you submit an appointment request through the “Book Now” page, you will receive intake forms in your preferred language (Korean or English) to complete before your first session. You will also receive a payment request via a KakaoTalk notification message or text message from 결제선생, allowing you to conveniently and securely reserve your appointment time. A confirmation of your appointment will be sent after the payment has been received. For more information regarding payment procedures, cancellations, and refunds, please refer to the Payment Policy Agreement included with the intake forms."
