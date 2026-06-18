@@ -106,7 +106,10 @@ faq:
 
     - name: Do you work with minor clients as well?
       answer: A. Yes, I also provide therapy services for adolescents aged 14 and older.
-      
+    
+    - name: Do you accept walk-ins?
+      answer: A. Unfortunately, no. At this time, I do not offer walk-in appointments or in-person sessions. All services are currently provided online, and appointments must be scheduled at least 48 hours in advance.
+
     - name: "I am located outside of South Korea. Can I schedule an online therapy session?"
       answer: "A. Because professional licensure requirements and regulations vary across jurisdictions, I am only able to provide online therapy services to clients who are physically located in South Korea at the time of their sessions. This is in accordance with my professional licensure and applicable regulations."
 
