@@ -116,7 +116,7 @@ link = "plugins/hugrid/hugrid.min.js"
 #################### default parameters ################################
 [params]
 copyright1 = "&copy; 2026 SharingSpring. All rights reserved."
-copyright2 = "This site is for informational purposes only and does not provide emergency services."
+#copyright2 = "This site is for informational purposes only and does not provide emergency services."
 # Meta data
 description = "Personal Portfolio"
 author = "Michelle Park"
@@ -151,12 +151,12 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 ############################# address ########################
 
 [[params.remark]]
-remark1 = "온라인 상담을 진행 중입니다."
-remark2 = "Now taking online therapy sessions."
+#remark1 = "온라인 상담을 진행 중입니다."
+#remark2 = "Now taking online therapy sessions."
 
 [[params.address]]
-address = "서울 특별시 마포구 와우산로 105, 5층 242A호"
-registnum = "사업자등록번호: 673-04-03744"
+address = "심리상담소 봄나눔 | 서울 특별시 마포구 와우산로 105, 5층 242A호"
+registnum = "대표자: 박우아 | 사업자등록번호: 673-04-03744"
 
 contentDir = "content/english"
 weight = 1
