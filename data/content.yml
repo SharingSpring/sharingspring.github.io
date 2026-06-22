@@ -1,10 +1,9 @@
 ########################## hero area ##########################
 hero:
-  title: "sharing spring"
+  title: "심리상담소 봄나눔"
 
   # animated text loop
   occupations:
-    - '심리상담소 봄나눔'
     - '영어 심리상담'
     - '한국어 심리상담'
 
