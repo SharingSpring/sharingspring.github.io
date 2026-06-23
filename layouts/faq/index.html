@@ -28,6 +28,19 @@
             This website is intended to provide information about therapy services. Please note that we do not offer support for emergencies or crisis situations requiring immediate intervention. If you need urgent assistance, please contact your nearest emergency room or local crisis support services.
             {{ end }}
         </div>
+        <br>
+        <div class="faq-answer">
+            {{ if eq $.Site.Language.Lang "ko" }}
+            - 자살예방상담전화: 109 <br>
+            - 정신건강상담전화 (정신건강 관련 상담 및 지원 안내 및 위기상담 대안 번호): 1577-0199 <br>
+            - 생명의전화 (자살예방 및 위기 상담 연계) : 1588-9191 <br>
+            - 가까운 응급실(응급의료기관)로 직접 방문 <br><br>
+
+            * 미국 및 미국령 내에서의 자살예방 및 위기상담 전화 (U.S. Suicide & Crisis Lifeline): 988로 전화 또는 문자
+            {{ else }}
+            *U.S. Suicide & Crisis Lifeline (for those in the United States and U.S. territories): Call or text 988
+            {{ end }}
+        </div>
       {{ end }} {{ end }}
       </div>
     </div>
