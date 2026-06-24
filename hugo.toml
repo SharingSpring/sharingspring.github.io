@@ -68,7 +68,7 @@ link = "plugins/hugrid/hugrid.min.js"
       URL = "/booking/"      # ◀ content/booking/ 폴더를 찾아감
       weight = 4
     [[languages.ko.menu.main]]
-      name = "FAQ"       # ◀ 새로 추가된 영어 메뉴
+      name = "질문"       # ◀ 새로 추가된 영어 메뉴
       URL = "/faq/"   # ◀ 영어 예약 페이지로 이동
       weight = 5
     [[languages.ko.menu.main]]
@@ -109,7 +109,7 @@ link = "plugins/hugrid/hugrid.min.js"
       URL = "/en/faq/"   # ◀ 영어 예약 페이지로 이동
       weight = 5
     [[languages.en.menu.main]]
-      name = "KO"        # 한국어로 전환하는 버튼
+      name = "한국어"        # 한국어로 전환하는 버튼
       URL = "/"         # 한국어 사이트 경로
       weight = 10
 
