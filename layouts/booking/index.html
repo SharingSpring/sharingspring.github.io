@@ -38,14 +38,32 @@
   document.addEventListener('DOMContentLoaded', function () {
     var el = document.getElementById('booking-steps');
     if (el) {
-      new Splide('#booking-steps', {
+      var caption = document.getElementById('booking-step-caption');
+      var titles = Array.prototype.map.call(
+        el.querySelectorAll('.splide__slide'),
+        function (slide) { return slide.dataset.stepTitle || ''; }
+      );
+
+      var splide = new Splide('#booking-steps', {
         type: 'slide',
         perPage: 1,
         pagination: true,
         arrows: true,
         gap: '1rem',
         lazyLoad: 'nearby',
-      }).mount();
+      });
+
+      function updateCaption(index) {
+        if (caption && titles[index]) {
+          caption.textContent = titles[index];
+        }
+      }
+
+      splide.on('mounted moved', function () {
+        updateCaption(splide.index);
+      });
+
+      splide.mount();
     }
   });
 </script>

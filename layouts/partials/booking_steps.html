@@ -17,12 +17,14 @@
               alt="{{ $step.alt }}"
               loading="lazy"
             />
+            <br><br>    
             <figcaption>{{ $step.title }}</figcaption>
           </figure>
         </li>
         {{ end }}
       </ul>
     </div>
+    <p class="booking-step-caption" id="booking-step-caption" aria-live="polite"></p>
   </div>
 </section>
 {{ end }}
