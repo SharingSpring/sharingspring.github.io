@@ -1177,10 +1177,15 @@ ul.experience-chart h4 {
   font-size: 14px;
   font-weight: 600;
 }
-.booking-step-figure figcaption {
-  margin-top: 12px;
+.booking-step-caption {
+  margin: 16px 0 0;
   color: #6f6f6f;
   font-size: 0.95rem;
+  min-height: 1.4em;
+}
+
+#booking-steps .splide__pagination {
+  margin-top: 20px;
 }
 
 /*--------------------------------
