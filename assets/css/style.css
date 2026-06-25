@@ -1137,6 +1137,52 @@ ul.experience-chart h4 {
     padding: 0 20px 40px 20px; /* 스마트폰 화면 양옆 여백 및 맨 밑 바닥 여백 */
   }
 }
+
+.booking-steps-wrapper {
+  max-width: 900px;
+  margin: 60px auto 0;
+  padding-top: 40px;
+  border-top: 1px solid #eee;   /* subtle divider */
+  text-align: center;
+}
+.booking-steps-wrapper h2 {
+  font-weight: 700;
+  color: #4d4d4d;
+  margin-bottom: 8px;
+}
+.booking-steps-wrapper p {
+  color: #6f6f6f;
+  margin-bottom: 30px;
+}
+.booking-step-figure {
+  position: relative;
+  margin: 0;
+}
+.booking-step-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.step-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #6f6f6f;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  line-height: 28px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.booking-step-figure figcaption {
+  margin-top: 12px;
+  color: #6f6f6f;
+  font-size: 0.95rem;
+}
+
 /*--------------------------------
   Start Header
 ----------------------------------*/
