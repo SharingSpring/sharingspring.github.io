@@ -25,10 +25,29 @@
         scrolling="yes"
         style="border: none; display: block;">
       </iframe>
-      
+
     </div>
+
+    {{ partial "booking_steps.html" (dict "data" $data) }}
 
   </div>
 </section>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/css/splide.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/js/splide.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var el = document.getElementById('booking-steps');
+    if (el) {
+      new Splide('#booking-steps', {
+        type: 'slide',
+        perPage: 1,
+        pagination: true,
+        arrows: true,
+        gap: '1rem',
+        lazyLoad: 'nearby',
+      }).mount();
+    }
+  });
+</script>
 
 {{- partial "footer.html" . -}} {{ end }}
