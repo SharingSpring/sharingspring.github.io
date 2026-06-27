@@ -4,8 +4,8 @@ hero:
 
   # animated text loop
   occupations:
+    - 'English-speaking therapist'
     - '한국어 심리상담'
-    - '영어 심리상담'
 
   # hero background image
   bg_image: 'images/green2.jpeg'
