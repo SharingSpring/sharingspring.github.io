@@ -8,7 +8,7 @@
 
 <section class="about-me" id="about">
   <div class="container">
-    <div class="row experience-skill">
+    <!-- <div class="row experience-skill"> -->
       <div class="col-lg-10 col-sm-10 col-11 faq-block">
       {{ if $data.faq.enable }} 
       {{ with $data.faq }}
@@ -25,7 +25,8 @@
             {{ if eq $.Site.Language.Lang "ko" }}
             이 사이트는 상담 관련 정보를 제공하기 위한 공간입니다.  응급 상황이나 즉각적인 개입이 필요한 위기 상황에 대한 지원은 제공하지 않습니다. 이러한 도움이 필요하신 경우에는 가까운 응급실 또는 지역의 긴급 지원서비스를 이용해 주세요.
             {{ else }}
-            This website is intended to provide information about therapy services. Please note that we do not offer support for emergencies or crisis situations requiring immediate intervention. If you need urgent assistance, please contact your nearest emergency room or local crisis support services.
+            This website is intended to provide general information about our therapy services. Please note that we do not provide emergency or crisis intervention services.
+            If you need to make a medical appointment or require urgent assistance, please refer to this RESOURCE (PDF). If you are experiencing an emergency or require immediate support, please contact your nearest emergency department or local crisis support services.
             {{ end }}
         </div>
         <br>
@@ -44,7 +45,7 @@
       {{ end }} {{ end }}
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 
   
 </section>
