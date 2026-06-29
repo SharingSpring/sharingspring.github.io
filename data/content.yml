@@ -162,7 +162,7 @@ booking:
 #### Updates
 updates:
   enable: true
-  title: "공지"
+  title: "상담 서비스 운영 안내"
   items:
     # - date: "2026-06-25"
     #   title: "온라인 상담 운영 안내"
