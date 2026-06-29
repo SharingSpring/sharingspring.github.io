@@ -102,19 +102,19 @@ faq:
       answer: A. If you are scheduling your first appointment, please click "This is my first visit" on the “[Book Now](/en/booking)” page. From there, you can select a service offered in your preferred language (English or Korean) and choose an available date and time that works for you. <br><br> After submitting your name, contact information, and a brief reason for your visit, you will receive intake paperwork and additional information by email in your preferred language before your first session.
 
     - name: "Can I schedule an in-person session?"
-      answer: "A. At this time, I offer therapy services exclusively through online sessions. However, if in-person meetings are determined to be clinically appropriate and necessary, I will make reasonable efforts to explore available options on a case-by-case basis."
+      answer: A. Yes. However, because the current office is not ideally suited for in-person therapy sessions, appointments are held in a separate, comfortable consultation space. Once an in-person appointment has been requested and confirmed, the full address of the location—just a 3-minute walk from Hapjeong Station—will be shared.
 
     - name: Do you work with minor clients as well?
       answer: A. Yes, I also provide therapy services for adolescents aged 14 and older.
     
     - name: Do you accept walk-ins?
-      answer: A. Unfortunately, no. At this time, I do not offer walk-in appointments or in-person sessions. All services are currently provided online, and appointments must be scheduled at least 48 hours in advance.
+      answer: A. Unfortunately, walk-in appointments are not available. All sessions are scheduled by appointment only. To ensure a well-prepared and seamless therapy experience, appointments must be booked at least 48 hours in advance.
 
     - name: "I am located outside of South Korea. Can I schedule an online therapy session?"
-      answer: "A. Because professional licensure requirements and regulations vary across jurisdictions, I am only able to provide online therapy services to clients who are physically located in South Korea at the time of their sessions. This is in accordance with my professional licensure and applicable regulations."
+      answer: A. Because professional licensure requirements and regulations vary across jurisdictions, I am only able to provide online therapy services to clients who are physically located in South Korea at the time of their sessions. This is in accordance with my professional licensure and applicable regulations.
 
     - name: "Do you provide direct billing to U.S. insurance companies?"
-      answer: "A. No. However, upon request, I can provide invoices and superbills that clients may submit directly to their U.S. insurance providers for possible out-of-network reimbursement. Please note that reimbursement eligibility and coverage are determined solely by your insurance plan."
+      answer: A. No. However, upon request, I can provide invoices and superbills that clients may submit directly to their U.S. insurance providers for possible out-of-network reimbursement. Please note that reimbursement eligibility and coverage are determined solely by your insurance plan.
 
     - name: "What forms of payments do you accept?" 
       answer: |
@@ -124,7 +124,7 @@ faq:
         * **간편결제** (Naver Pay, L.Pay, Kakao Pay) via “결제선생” (“Payment Teacher”)
       
     - name: "What is “결제선생”?"
-      answer: "A. 결제선생 (“Payment Teacher”) is a secure payment processing service used by many businesses in South Korea. It allows payment requests to be sent conveniently via KakaoTalk notification messages or text messages, enabling clients to complete credit card payments online without needing to visit the office in person."
+      answer: A. 결제선생 (“Payment Teacher”) is a secure payment processing service used by many businesses in South Korea. It allows payment requests to be sent conveniently via KakaoTalk notification messages or text messages, enabling clients to complete credit card payments online without needing to visit the office in person.
 
     - name: Do you take international cards and any other forms of payments?
       answer: "A. Yes, following forms of payments are accepted in-person through a registered credit card terminal service: <br> Visa, Master, JCB, American Express, Diners Club, and Discovery, Samsung Pay, and Apple Pay."
