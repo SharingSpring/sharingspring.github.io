@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+{{ $contentFile := .Language.Params.contentData | default "content" }}
+{{ $data := index .Site.Data $contentFile }}
+
+{{- partial "menu.html" . -}}
+
+<section class="about-me" id="updates">
+  <div class="container">
+    <div class="col-lg-10 col-sm-10 col-11 faq-block">
+      {{ if $data.updates.enable }}
+      {{ with $data.updates }}
+        <h2 style="font-weight: 700; color: #6f6f6f; margin-bottom: 30px;">
+          {{ .title }}
+        </h2>
+        {{ range .items }}
+        <article class="updates-item" style="margin-bottom: 40px;">
+          <time style="color: #999; font-size: 0.9rem;">{{ .date }}</time>
+          <h3 style="font-weight: 600; color: #4d4d4d; margin: 8px 0;">
+            {{ .title }}
+          </h3>
+          <div class="updates-body">{{ .body | markdownify }}</div>
+        </article>
+        {{ end }}
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{- partial "footer.html" . -}}
+{{ end }}
