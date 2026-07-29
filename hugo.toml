@@ -71,10 +71,10 @@ link = "plugins/hugrid/hugrid.min.js"
       name = "질문"
       URL = "/faq/"
       weight = 5
-    [[languages.ko.menu.main]]
-      name = "공지사항"
-      URL = "/updates/" 
-      weight = 6
+#    [[languages.ko.menu.main]]
+#      name = "공지사항"
+#      URL = "/updates/" 
+#      weight = 6
     [[languages.ko.menu.main]]
       name = "EN"        # 영어로 전환하는 버튼
       URL = "/en/"      # 영어 사이트 경로
@@ -112,10 +112,10 @@ link = "plugins/hugrid/hugrid.min.js"
       name = "FAQ"
       URL = "/en/faq/"
       weight = 5
-    [[languages.en.menu.main]]
-      name = "Updates"
-      URL = "/en/updates/"
-      weight = 6
+#    [[languages.en.menu.main]]
+#      name = "Updates"
+#      URL = "/en/updates/"
+#      weight = 6
     [[languages.en.menu.main]]
       name = "한국어"        # 한국어로 전환하는 버튼
       URL = "/"         # 한국어 사이트 경로
