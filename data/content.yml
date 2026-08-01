@@ -38,6 +38,16 @@ experience:
   enable: true
   title: '상담이력'
   experience_list:
+    - name: 글로벌 기업상담사
+      company: Spring Health 
+      duration: '2026년 8월 - 현재 '
+      # content: I make websites.
+
+    - name: 대표상담사
+      company: 심리상담소 봄나눔 
+      duration: '2026년 6월 - 현재 '
+      # content: I make websites.
+
     - name: 임상심리사
       company: 서울상담센터 
       duration: '2021-2026'

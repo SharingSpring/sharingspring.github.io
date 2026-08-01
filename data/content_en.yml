@@ -41,6 +41,14 @@ experience:
   enable: true
   title: 'EXPERIENCE'
   experience_list:
+    - name: Global Therapist for EAP (Employee Assistance Program) 
+      company: Spring Health
+      duration: 'Aug, 2026 -  present'
+    
+    - name: Founder 
+      company: Sharing Spring
+      duration: 'June, 2026 -  present'
+
     - name: Clinical Therapist
       company: Seoul Counseling Center 
       duration: '2021-2026'
