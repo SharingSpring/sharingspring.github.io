@@ -25,8 +25,45 @@
       {{ end }}
       {{ end }}
     </div>
+    {{ partial "direction.html" (dict "data" $data) }}
   </div>
 </section>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/css/splide.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/js/splide.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var el = document.getElementById('booking-steps');
+    if (el) {
+      var caption = document.getElementById('booking-step-caption');
+      var titles = Array.prototype.map.call(
+        el.querySelectorAll('.splide__slide'),
+        function (slide) { return slide.dataset.stepTitle || ''; }
+      );
+
+      var splide = new Splide('#booking-steps', {
+        type: 'slide',
+        perPage: 1,
+        pagination: true,
+        arrows: true,
+        gap: '1rem',
+        lazyLoad: 'nearby',
+      });
+
+      function updateCaption(index) {
+        if (caption && titles[index]) {
+          caption.textContent = titles[index];
+        }
+      }
+
+      splide.on('mounted moved', function () {
+        updateCaption(splide.index);
+      });
+
+      splide.mount();
+    }
+  });
+</script>
 
 {{- partial "footer.html" . -}}
 {{ end }}
