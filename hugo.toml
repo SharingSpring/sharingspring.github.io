@@ -163,7 +163,7 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 #remark2 = "Now taking online therapy sessions."
 
 [[params.address]]
-address = "심리상담소 봄나눔 | 서울 특별시 마포구 와우산로 105, 5층 242A호"
+address = "심리상담소 봄나눔 | 서울시 마포구 합정동 473 마포한강2차 푸르지오 오피스텔"
 registnum = "대표자: 박우아 | 사업자등록번호: 673-04-03744"
 
 contentDir = "content/english"

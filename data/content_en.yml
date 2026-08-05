@@ -209,7 +209,57 @@ updates:
           - Effective July 12, 2026
 
 
-
+######## Direction
+direction:
+  enable: true
+  title: "Directions to the center"
+  subtitle: "Please find the directions to the center that best suit your location below."
+  steps:
+    - image: "images/Directions_001.jpeg"
+      title: "첫 방문 선택"
+      alt: "This is my first visit 버튼을 클릭하는 화면"
+    - image: "images/Directions_002.jpeg"
+      title: "상담 서비스 선택"
+      alt: "온라인 개인 심리상담(한국어) 서비스를 선택하는 화면"
+    - image: "images/Directions_003.jpeg"
+      title: "날짜·시간 선택"
+      alt: "온라인 개인 심리상담(한국어) 서비스를 선택하는 화면"
+    - image: "images/Directions_004.jpeg"
+      title: "날짜·시간 선택 후 Continue"
+      alt: "온라인 개인 심리상담(한국어) 서비스를 선택하는 화면"
+    - image: "images/Directions_005.jpeg"
+      title: "내담자 정보 입력"
+      alt: "온라인 개인 심리상담(한국어) 서비스를 선택하는 화면"
+    - image: "images/Directions_006.jpeg"
+      title: "Request booking 클릭"
+      alt: "온라인 개인 심리상담(한국어) 서비스를 선택하는 화면"
+    - image: "images/Directions_007.jpeg"
+      title: "예약완료 화면"
+      alt: "온라인 개인 심리상담(한국어) 서비스를 선택하는 화면"
+    - image: "images/Directions_008.jpeg"
+      title: "예약완료 화면"
+      alt: "온라인 개인 심리상담(한국어) 서비스를 선택하는 화면"
+    - image: "images/Directions_009.jpeg"
+      title: "예약완료 화면"
+      alt: "온라인 개인 심리상담(한국어) 서비스를 선택하는 화면"
+    - image: "images/Directions_010.jpeg"
+      title: "예약완료 화면"
+      alt: "온라인 개인 심리상담(한국어) 서비스를 선택하는 화면"
+    - image: "images/Directions_011.jpeg"
+      title: "예약완료 화면"
+      alt: "온라인 개인 심리상담(한국어) 서비스를 선택하는 화면"
+    - image: "images/Directions_012.jpeg"
+      title: "예약완료 화면"
+      alt: "온라인 개인 심리상담(한국어) 서비스를 선택하는 화면"
+    - image: "images/Directions_013.jpeg"
+      title: "예약완료 화면"
+      alt: "온라인 개인 심리상담(한국어) 서비스를 선택하는 화면"
+    - image: "images/Directions_014.jpeg"
+      title: "예약완료 화면"
+      alt: "온라인 개인 심리상담(한국어) 서비스를 선택하는 화면"
+    - image: "images/Directions_015.jpeg"
+      title: "예약완료 화면"
+      alt: "온라인 개인 심리상담(한국어) 서비스를 선택하는 화면"
 
 
 

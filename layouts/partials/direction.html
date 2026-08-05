@@ -1,0 +1,30 @@
+{{ $data := .data }}
+
+{{ if $data.direction.enable }}
+<section class="booking-steps-wrapper">
+  <h2>{{ $data.direction.title }}</h2>
+  <p>{{ $data.direction.subtitle }}</p>
+
+  <div class="splide" id="booking-steps">
+    <div class="splide__track">
+      <ul class="splide__list">
+        {{ range $i, $step := $data.direction.steps }}
+        <li class="splide__slide">
+          <figure class="booking-step-figure">
+            <span class="step-badge">{{ add $i 1 }}</span>
+            <img
+              src="{{ $step.image | relURL }}"
+              alt="{{ $step.alt }}"
+              loading="lazy"
+            />
+            <br><br>    
+            <figcaption>{{ $step.title }}</figcaption>
+          </figure>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    <p class="booking-step-caption" id="booking-step-caption" aria-live="polite"></p>
+  </div>
+</section>
+{{ end }}
