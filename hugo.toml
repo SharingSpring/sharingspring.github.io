@@ -63,10 +63,10 @@ link = "plugins/hugrid/hugrid.min.js"
       name = "상담소 소개"
       URL = "/intro/"
       weight = 3
-    [[languages.ko.menu.main]]
-      name = "예약하기"        # ◀ 새로 추가된 메뉴
-      URL = "/booking/"      # ◀ content/booking/ 폴더를 찾아감
-      weight = 4
+#    [[languages.ko.menu.main]]
+#      name = "예약하기"        # ◀ 새로 추가된 메뉴
+#      URL = "/booking/"      # ◀ content/booking/ 폴더를 찾아감
+#      weight = 4
     [[languages.ko.menu.main]]
       name = "질문"
       URL = "/faq/"
@@ -104,10 +104,10 @@ link = "plugins/hugrid/hugrid.min.js"
       name = "Introduction"
       URL = "/en/intro/"
       weight = 3
-    [[languages.en.menu.main]]
-      name = "Book Now"#
-      URL = "/en/booking/"
-      weight = 4
+#    [[languages.en.menu.main]]
+#      name = "Book Now"#
+#      URL = "/en/booking/"
+#      weight = 4
     [[languages.en.menu.main]]
       name = "FAQ"
       URL = "/en/faq/"
@@ -165,7 +165,7 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 [[params.address]]
 registnum = "심리상담소 봄나눔 | 대표자: 박우아 | 사업자등록번호: 673-04-03744"
 address = "서울시 마포구 월드컵로3길 14, 201동 1310호 (합정동, 마포 한강 2차 푸르지오 오피스텔)"
-address_en = "14, World Cup-ro 3-gil, Mapo-gu, Seoul (Mapo Hangang II Prugio Offistel 201-1310)"
+address_en = "14, World Cup-ro 3-gil, Mapo-gu, Seoul (Mapo Hangang II Prugio Officetel 201-1310)"
 
 contentDir = "content/english"
 weight = 1
