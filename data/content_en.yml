@@ -126,12 +126,11 @@ faq:
   enable: true
   title: "FAQ"
   faq_list:
-    # - name: How do I schedule an appointment?
-    #   answer: A. If you are scheduling your first appointment, please click "This is my first visit" on the “[Book Now](/en/booking)” page. From there, you can select a service offered in your preferred language (English or Korean) and choose an available date and time that works for you. <br><br> After submitting your name, contact information, and a brief reason for your visit, you will receive intake paperwork and additional information by email in your preferred language before your first session.
+    - name: How do I schedule an appointment?
+      answer: A. If you are scheduling your first appointment, please click "This is my first visit" on the “[Book Now](/en/booking)” page. From there, you can select a service offered in your preferred language (English or Korean) and choose an available date and time that works for you. <br><br> After submitting your name, contact information, and a brief reason for your visit, you will receive intake paperwork and additional information by email in your preferred language before your first session.
 
-    - name: Can I schedule an in-person session?
-      answer: A. Yes. I offer in-person sessions, although availability is currently limited for both in-person and online sessions. If you’re interested in working together, please email sharingspring2026@gmail.com. I’d be happy to discuss your needs and let you know about current availability and expected wait times.
-
+    - name: Can I schedule in-person sessions?
+      answer: A. Yes, I offer in-person sessions as well.
             
     - name: Do you work with minor clients as well?
       answer: A. Yes, I also provide therapy services for adolescents aged 14 and older.
