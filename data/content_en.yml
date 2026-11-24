@@ -147,7 +147,7 @@ faq:
     - name: "What forms of electronic payments do you accept?" 
       answer: |
         A. Payments can be made conveniently using any of the following methods:
-        * **Korean bank transfers** to 박우아 at Hana Bank 336-910487-67107
+        * **Korean bank transfers**
         * **Korean credit cards** (BC, 농협, 국민, 신한, 하나, 삼성, 현대, 롯데, 우리) via electronic payment called “결제선생” (“Payment Teacher”)
         * **간편결제** (Naver Pay, L.Pay, Kakao Pay) via “결제선생” (“Payment Teacher”)
 
@@ -165,7 +165,7 @@ faq:
     - name: What are your hours of operation?
       answer: |
         * Tuesday ~ Friday: 12:30pm - 8:30pm 
-        * Saturday: 10:00am - 6:00pm
+        * Saturday: 12:00am - 7:00pm
         * Closed on Sundays and Mondays
 
     - name: How can I reach SharingSpring?
